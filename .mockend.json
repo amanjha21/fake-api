@@ -1,5 +1,15 @@
 {
   "User": {
-    "title": { "string": {} }
+   "regno": { "string": {} },
+
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}",
+    },
+    'generalRank': {
+      "int": {
+        "min": 1,
+        "max": 100,
+      },
+    }
   }
 }
