@@ -1,6 +1,5 @@
 {
   "student": {
-    "regno": { "string": {} },
-
+    "title": { "string": {} }
   }
 }
